@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      body { margin: 0; max-width: none; }
+      #chat-root { margin: 0.5rem; }
+      h1 { display: none; }
+    </style>
+    <script>window.__CHATBOT_CHANNEL__ = "widget";</script>
+  </head>
+  <body>
+    <main id="chat-root">
+      <div id="messages"></div>
+      <form id="chat-form">
+        <input id="chat-input" type="text" placeholder="พิมพ์คำถามของคุณ..." autocomplete="off" />
+        <button type="submit">ส่ง</button>
+      </form>
+    </main>
+    <script src="/chat.js"></script>
+  </body>
+</html>
